@@ -43,6 +43,9 @@ $(document).ready(function() {
         }
         hidden();
         $("input[type=checkbox]").on("click", hidden);
+        $("button#remove").click(function(){
+          $(".remove").hide();
+        });
 
     })
 });

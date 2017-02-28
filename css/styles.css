@@ -1,3 +1,6 @@
+body{
+  background-image:url("../images/images.png");
+}
 form{
   display: block;
 }
@@ -12,4 +15,9 @@ h2{
 }
 #showDetails{
   display: none;
+  font-size:20px;
+
+}
+#send{
+  background-color: #F15A29;
 }
