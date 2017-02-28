@@ -37,5 +37,12 @@ $(document).ready(function() {
             $("input#input4").val("");
         })
 
+        var hidden=function(){
+          $("input:checked>span").hide();
+
+        }
+        hidden();
+        $("input[type=checkbox]").on("click", hidden);
+
     })
 });
