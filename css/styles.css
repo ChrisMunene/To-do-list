@@ -1,0 +1,15 @@
+form{
+  display: block;
+}
+.form-control{
+  width: 400px;
+}
+header{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+#showDetails{
+  display: none;
+}
