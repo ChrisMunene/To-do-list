@@ -14,7 +14,7 @@ Activities.prototype.allActivities = function() {
 $(document).ready(function() {
     $("form#blanks").submit(function(event) {
         event.preventDefault();
-        var input2 = $("input#input1").val();
+        var input1 = $("input#input1").val();
         var input2 = $("input#input2").val();
         var input3 = $("input#input3").val();
         var input4 = $("input#input4").val();
