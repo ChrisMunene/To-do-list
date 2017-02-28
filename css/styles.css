@@ -1,5 +1,5 @@
 body{
-  background-image:url("../images/images.png");
+  background-image:url("../images/background.jpg");
 }
 form{
   display: block;
@@ -9,6 +9,9 @@ form{
 }
 header{
   text-align: center;
+  color: silver;
+  padding-bottom: 170px;
+  padding-top:0;
 }
 h2{
   text-align: center;
