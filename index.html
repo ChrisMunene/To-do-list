@@ -6,24 +6,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/scripts.js"></script>
     <title></title>
-</head>
-
-<body>
-
     <header>
-        <h1>TO-DO LIST</h1>
+        <h1 class="animated shake">TO-DO LIST</h1>
     </header>
-    <h2>Enter your days activities in the spaces provided to create your list.</h2>
+
     <div class="container">
       <div class="row">
+        <h2>Enter your days activities in the spaces provided to create your list.</h2>
           <div class="col-md-6 col-md-push-5">
               <div id="showDetails">
                 <div class="remove">
                   <input type="checkbox"> <span class="input1"></span>
-                  <button type="button" value="X" class="btn" id="remove">&times;</button><br>
+                <!--<button type="button" value="X" class="btn" id="remove">&times;</button>--><br>
                 </div>
                   <input type="checkbox"> <span class="input2"></span><br>
                   <input type="checkbox"> <span class="input3"></span><br>
@@ -53,7 +51,7 @@
                         <label>Activity</label>
                         <input type="text" class="form-control" id="input4">
                     </div>
-                    <button type="submit" class="btn" id="send">Send!</button>
+                    <button type="submit" class="btn animated shake" id="send">Send!</button>
                 </form>
             </div>
         </div>
